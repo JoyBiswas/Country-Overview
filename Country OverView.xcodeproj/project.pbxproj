@@ -12,6 +12,7 @@
 		CEAE7B3E1FC98D0000CFF096 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAE7B3C1FC98D0000CFF096 /* Main.storyboard */; };
 		CEAE7B401FC98D0000CFF096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAE7B3F1FC98D0000CFF096 /* Assets.xcassets */; };
 		CEAE7B431FC98D0000CFF096 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAE7B411FC98D0000CFF096 /* LaunchScreen.storyboard */; };
+		CEAE7B4B1FCA740800CFF096 /* CountryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAE7B4A1FCA740800CFF096 /* CountryDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CEAE7B3F1FC98D0000CFF096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAE7B421FC98D0000CFF096 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEAE7B441FC98D0000CFF096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAE7B4A1FCA740800CFF096 /* CountryDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CEAE7B381FC98D0000CFF096 /* AppDelegate.swift */,
 				CEAE7B3A1FC98D0000CFF096 /* ViewController.swift */,
+				CEAE7B4A1FCA740800CFF096 /* CountryDetailsVC.swift */,
 				CEAE7B3C1FC98D0000CFF096 /* Main.storyboard */,
 				CEAE7B3F1FC98D0000CFF096 /* Assets.xcassets */,
 				CEAE7B411FC98D0000CFF096 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAE7B4B1FCA740800CFF096 /* CountryDetailsVC.swift in Sources */,
 				CEAE7B3B1FC98D0000CFF096 /* ViewController.swift in Sources */,
 				CEAE7B391FC98D0000CFF096 /* AppDelegate.swift in Sources */,
 			);
